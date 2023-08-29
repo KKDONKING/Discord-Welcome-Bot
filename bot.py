@@ -6,7 +6,7 @@ from discord.ext import commands
 intents = discord.Intents.all()
 discord.member = True
 
-role_channel = 1132860437923381298 # role channel id goes here
+role_channel =  # role channel id goes here
 bot = commands.Bot(command_prefix="$", intents = discord.Intents.all())
 
 @bot.event
@@ -74,4 +74,4 @@ async def coin_toss(ctx, member: discord.Member = None):
     )
     coin_toss.set_thumbnail(url=f"{coin_sides}")
     await ctx.send(embed=coin_toss)
-bot.run("NzQxMzYzOTk2NzI4MzYwOTcw.GLI0B6.FrpSP8P3DNcTdI9bu8io5sH9KV9y6lLq4N7VBA") #add the bot token inside the double quotes
+bot.run("") #add the bot token inside the double quotes
